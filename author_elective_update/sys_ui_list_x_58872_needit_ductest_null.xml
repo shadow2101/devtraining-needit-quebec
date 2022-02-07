@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_58872_needit_ductest" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_58872_needit_ductest" element="NULL" name="x_58872_needit_ductest" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d85f4341972d4110baa6318c1253afea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 02:56:57</sys_created_on>
+            <sys_id>505f4341972d4110baa6318c1253afec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 02:56:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>age</element>
+            <list_id display_value="x_58872_needit_ductest" element="NULL" name="x_58872_needit_ductest" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d85f4341972d4110baa6318c1253afea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 02:56:57</sys_created_on>
+            <sys_id>585f4341972d4110baa6318c1253afec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 02:56:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>id</element>
+            <list_id display_value="x_58872_needit_ductest" element="NULL" name="x_58872_needit_ductest" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d85f4341972d4110baa6318c1253afea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 02:56:57</sys_created_on>
+            <sys_id>d85f4341972d4110baa6318c1253afec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 02:56:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>style</element>
+            <list_id display_value="x_58872_needit_ductest" element="NULL" name="x_58872_needit_ductest" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d85f4341972d4110baa6318c1253afea</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 02:56:57</sys_created_on>
+            <sys_id>5c5f4341972d4110baa6318c1253afec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 02:56:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_58872_needit_ductest</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 02:56:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d85f4341972d4110baa6318c1253afea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_ductest</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_list_x_58872_needit_ductest_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 02:56:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>bf3421151b090d107d9d2f8dee4bcb9a</instance_id>
+        <instance_name>dev120802</instance_name>
+        <name>sys_ui_list_x_58872_needit_ductest_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_58872_needit_ductest" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="x_58872_needit_ductest" element="NULL" name="x_58872_needit_ductest" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d85f4341972d4110baa6318c1253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 02:56:57</sys_created_on><sys_id>505f4341972d4110baa6318c1253afec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 02:56:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>age</element><list_id display_value="x_58872_needit_ductest" element="NULL" name="x_58872_needit_ductest" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d85f4341972d4110baa6318c1253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 02:56:57</sys_created_on><sys_id>585f4341972d4110baa6318c1253afec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 02:56:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>id</element><list_id display_value="x_58872_needit_ductest" element="NULL" name="x_58872_needit_ductest" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d85f4341972d4110baa6318c1253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 02:56:57</sys_created_on><sys_id>d85f4341972d4110baa6318c1253afec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 02:56:57</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>style</element><list_id display_value="x_58872_needit_ductest" element="NULL" name="x_58872_needit_ductest" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d85f4341972d4110baa6318c1253afea</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 02:56:57</sys_created_on><sys_id>5c5f4341972d4110baa6318c1253afec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 02:56:57</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_58872_needit_ductest</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-07 02:56:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d85f4341972d4110baa6318c1253afea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_ductest</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_list_x_58872_needit_ductest_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-07 02:56:57</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1388694421</payload_hash>
+        <record_name>DucTest</record_name>
+        <reverted_from/>
+        <source>cfbde7b897a14110baa6318c1253af85</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 02:56:57</sys_created_on>
+        <sys_id>585f4341972d4110baa6318c1253afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ed21cec270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 02:56:57</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>185f4341802d4110e42291b226897eee</update_guid>
+        <update_guid_history>185f4341802d4110e42291b226897eee:-1388694421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 03:59:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>7978199b269e4618ba47cafae723e984</sys_id>
+        <sys_metadata>d85f4341972d4110baa6318c1253afea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_ductest</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">78ce8b4597694110baa6318c1253af9b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_58872_needit_ductest_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_58872_needit_ductest_null">585f4341972d4110baa6318c1253afee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 03:59:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
