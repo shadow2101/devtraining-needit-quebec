@@ -34,7 +34,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-07 03:35:56</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_58872_needit.needit_user" name="x_58872_needit.needit_user">8b381341972d4110baa6318c1253affa</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
