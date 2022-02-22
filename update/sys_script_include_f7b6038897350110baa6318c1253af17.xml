@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.FilterMyGroups</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>FilterMyGroups</name>
+        <script><![CDATA[var FilterMyGroups = Class.create();
+FilterMyGroups.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+	getGroups: function() {
+		var arrGroups = [];
+		var fullName = this.getParameter('sysparm_full_name');
+		var gr = new GlideRecord('sys_user_grmember');
+		gr.addEncodedQuery('GOTOuser.nameLIKE' + fullName);
+		gr.query();
+
+		while(gr.next()){
+			arrGroups.push(gr.group.toString());
+		}
+
+		return arrGroups + '';
+
+	},
+	type: 'FilterMyGroups'
+});
+// function FilterMyGroups ( ) { 
+//     var arrGroups  = [ ];
+//     var now_GR = new GlideRecord('sys_user_grmember');
+// 	now_GR.addQuery('user','=', g_user.getFullName());
+//     now_GR.query(); 
+//     while (now_GR.next()) {
+//         arrUsers.push(now_GR.u_customer.toString()); 
+//     }
+//     return arrUsers;
+// }]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-16 10:07:07</sys_created_on>
+        <sys_id>f7b6038897350110baa6318c1253af17</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>FilterMyGroups</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_f7b6038897350110baa6318c1253af17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-17 04:27:38</sys_updated_on>
+    </sys_script_include>
+</record_update>
