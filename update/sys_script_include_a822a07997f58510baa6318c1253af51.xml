@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <active>true</active>
-        <api_name>x_58872_needit.CustomerFuncStateClosed</api_name>
+        <api_name>x_58872_needit.GetTreeUsers</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
-        <name>CustomerFuncStateClosed</name>
-        <script><![CDATA[var CustomerFuncStateClosed = Class.create();
-CustomerFuncStateClosed.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
-	filterState: function(customer) {
-		if(customer.u_state == '3'){
-			return false;
-		}else{
-			return true;
-		}
-	},
-    type: 'CustomerFuncStateClosed'
-});]]></script>
+        <name>GetTreeUsers</name>
+        <script><![CDATA[var trees = [];
+function GetTreeUsers() {
+    var gr = new GlideRecord('sys_user');
+    gr.get(gs.getUserID());
+	trees.push(' '+ gr.department.name);
+    foreachTrees(gr.department.parent);
+    return trees + '';
+}
+
+function foreachTrees(name) {
+    var grDpm = new GlideRecord('cmn_department');
+    grDpm.addQuery('sys_id', name);
+    grDpm.query();
+    while (grDpm.next()) {
+        trees.push(' ' + grDpm.name);
+        foreachTrees(grDpm.parent);
+    }
+}]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-21 08:33:34</sys_created_on>
         <sys_id>a822a07997f58510baa6318c1253af51</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>CustomerFuncStateClosed</sys_name>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>GetTreeUsers</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_a822a07997f58510baa6318c1253af51</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-21 08:51:11</sys_updated_on>
+        <sys_updated_on>2022-02-28 08:43:29</sys_updated_on>
     </sys_script_include>
 </record_update>
