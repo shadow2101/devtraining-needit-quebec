@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Filter group of user using</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>MyGroups</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var getGroups = new GlideAjax('FilterMyGroups');
+	getGroups.addParam('sysparm_name', 'getGroups');
+	getGroups.addParam('sysparm_full_name', g_user.getFullName());
+	getGroups.getXML(ManagerParse);
+
+
+	function ManagerParse(response) {
+		var result = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('u_group_list', result);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 03:27:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fad27dec97ce0110baa6318c1253afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyGroups</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_fad27dec97ce0110baa6318c1253afd7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 03:27:25</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>bf3421151b090d107d9d2f8dee4bcb9a</instance_id>
+        <instance_name>dev120802</instance_name>
+        <name>sys_script_client_fad27dec97ce0110baa6318c1253afd7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Filter group of user using&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;MyGroups&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	var getGroups = new GlideAjax('FilterMyGroups');
+	getGroups.addParam('sysparm_name', 'getGroups');
+	getGroups.addParam('sysparm_full_name', g_user.getFullName());
+	getGroups.getXML(ManagerParse);
+
+
+	function ManagerParse(response) {
+		var result = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('u_group_list', result);
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-02 03:27:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fad27dec97ce0110baa6318c1253afd7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;MyGroups&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fad27dec97ce0110baa6318c1253afd7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-02 03:27:25&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>607267201</payload_hash>
+        <record_name>MyGroups</record_name>
+        <reverted_from/>
+        <source>2183e98297350110baa6318c1253af31</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 03:27:25</sys_created_on>
+        <sys_id>b6d27dec97ce0110baa6318c1253afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f48ab13390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 03:27:25</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>fed27deccbce01106286ce02ac5802d9</update_guid>
+        <update_guid_history>fed27deccbce01106286ce02ac5802d9:607267201</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 03:28:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>27119ef4c79a47b8955483731ad01424</sys_id>
+        <sys_metadata>fad27dec97ce0110baa6318c1253afd7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyGroups</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">e4f713c5972d4110baa6318c1253af67</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_fad27dec97ce0110baa6318c1253afd7</sys_update_name>
+        <sys_update_version display_value="sys_script_client_fad27dec97ce0110baa6318c1253afd7">b6d27dec97ce0110baa6318c1253afda</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 03:28:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
