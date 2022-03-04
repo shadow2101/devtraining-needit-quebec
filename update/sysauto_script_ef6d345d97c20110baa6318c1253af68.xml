@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>test</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-03-04 07:29:27</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[  // implement resource here
+    // Get value from the user_name path parameter passed in the URL
+    //var requestTable = request.pathParams.table;
+
+    // Query the sys_user table to get the user record for the user passed in
+    // the user_id path parameter.  
+    var fieldTable = new GlideAggregate('x_58872_needit_needit');
+	fieldTable.addAggregate('COUNT');
+    //fieldTable.addQuery('state', '1');
+    fieldTable.query();
+
+    var count = 0;
+
+    while (fieldTable.next()) {
+        count = fieldTable.getAggregate('COUNT');
+    }
+	gs.info('count : ' + count);
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 07:32:51</sys_created_on>
+        <sys_id>ef6d345d97c20110baa6318c1253af68</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_script_ef6d345d97c20110baa6318c1253af68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 07:53:51</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
