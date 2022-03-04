@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>flow_customertask</internal_name>
+        <label_cache>[{"name":"1223210c-07fb-46fe-b8f5-5e336c0138e6.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a7ddbde-a535-4867-9c0c-3dac03464409"}},{"name":"b086796b-6f88-4175-a2fe-d23abcec3f69.name","label":"1➛Name","reference_display":"Name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1f229a8d-5ec9-491f-9ca7-dd7878467c32"}},{"name":"b086796b-6f88-4175-a2fe-d23abcec3f69.state","label":"1➛State","reference_display":"State","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"844d8bf6-b24c-4a38-8d47-536fd6db3a8c"}},{"name":"b086796b-6f88-4175-a2fe-d23abcec3f69.date","label":"1➛Date","reference_display":"Date","type":"glide_date","base_type":"glide_date","attributes":{"uiType":"glide_date","uiTypeLabel":"Date","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5f230605-b14f-4d91-b229-d76bce251a32"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Flow CustomerTask</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 03:11:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f42cc1197420110baa6318c1253af1f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Flow CustomerTask</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_7f42cc1197420110baa6318c1253af1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 03:23:16</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7f42cc1197420110baa6318c1253af1f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7f42cc1197420110baa6318c1253af1f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7f42cc1197420110baa6318c1253af1f^sys_idNOT INa1150c1597420110baa6318c1253af54"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow CustomerTask">7f42cc1197420110baa6318c1253af1f</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 03:23:16</sys_created_on>
+        <sys_id>a1150c1597420110baa6318c1253af54</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 03:23:16</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a1150c1597420110baa6318c1253af54"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a1150c1597420110baa6318c1253af54</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 03:23:16</sys_created_on>
+        <sys_id>65150c1597420110baa6318c1253af55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 03:23:16</sys_updated_on>
+        <value>1970-01-01 11:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7f42cc1197420110baa6318c1253af1f^sys_idNOT INf342cc1197420110baa6318c1253af22"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7f42cc1197420110baa6318c1253af1f</id>
+        <name>Flow CustomerTask</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 03:11:07</sys_created_on>
+        <sys_id>f342cc1197420110baa6318c1253af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 03:11:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7f42cc1197420110baa6318c1253af1f^sys_idNOT INeaa4841597420110baa6318c1253afaa"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Generate Record of CustomerTask table">e364801597420110baa6318c1253aff8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Flow CustomerTask">7f42cc1197420110baa6318c1253af1f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 03:21:26</sys_created_on>
+        <sys_id>eaa4841597420110baa6318c1253afaa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 03:23:16</sys_updated_on>
+        <ui_id>b086796b-6f88-4175-a2fe-d23abcec3f69</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eaa4841597420110baa6318c1253afaa"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eaa4841597420110baa6318c1253afaa^sys_idNOT IN2aa4841597420110baa6318c1253afab"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>variable</input_name>
+        <instance>eaa4841597420110baa6318c1253afaa</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"variable":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 03:21:26</sys_created_on>
+        <sys_id>2aa4841597420110baa6318c1253afab</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 03:22:03</sys_updated_on>
+    </sys_hub_input_scripts>
+</record_update>
