@@ -5,25 +5,25 @@
         <description/>
         <device_type>browser</device_type>
         <hint/>
-        <name>Customer Task</name>
+        <name>Customer Extends</name>
         <order>100</order>
-        <roles>x_58872_needit.customer_task_user</roles>
+        <roles>x_58872_needit.customer_extends_user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-21 07:38:23</sys_created_on>
+        <sys_created_on>2022-03-04 09:03:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5ff590fd97b58510baa6318c1253af1f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Customers</sys_name>
+        <sys_id>9ed215dd97060110baa6318c1253af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Extends</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_app_application_5ff590fd97b58510baa6318c1253af1f</sys_update_name>
+        <sys_update_name>sys_app_application_9ed215dd97060110baa6318c1253af2b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-04 09:28:25</sys_updated_on>
-        <title>Customers</title>
+        <sys_updated_on>2022-03-04 09:03:01</sys_updated_on>
+        <title>Customer Extends</title>
         <view_name/>
     </sys_app_application>
 </record_update>
