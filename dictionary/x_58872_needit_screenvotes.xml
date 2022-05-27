@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ScreenVotes" max_length="40" name="x_58872_needit_screenvotes" sizeclass="0" type="collection">
+        <element label="Application Date" max_length="40" name="applicationdate" type="glide_date"/>
+        <element label="Application Head Office Date" max_length="40" name="application_head_office_date" type="glide_date"/>
+        <element label="Application Number" max_length="40" name="application_number" type="integer"/>
+        <element label="Application Type" max_length="40" name="application_type" type="string"/>
+        <element label="Branch offices and office" max_length="40" name="branch_offices_and_office" type="string"/>
+        <element label="Deadline Date" max_length="40" name="deadline_date" type="glide_date"/>
+        <element label="Document link" max_length="40" name="document_link" type="string"/>
+        <element label="Head Office" max_length="40" name="head_office" type="string"/>
+        <element label="Kana" max_length="40" name="kana" type="string"/>
+        <element label="Month's Worth" max_length="40" name="month_s_worth" type="integer"/>
+        <element label="Name of Institution in charge" max_length="40" name="name_of_institution_in_charge" type="string"/>
+        <element label="Refund date/Deposit date" max_length="40" name="refund_date_deposit_date" type="glide_date"/>
+        <element label="Results of Discussion" max_length="40" name="results_of_discussion" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Applicant" max_length="40" name="u_applicant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name (Kana)" max_length="40" name="u_kana" type="string"/>
+    </element>
+</database>
